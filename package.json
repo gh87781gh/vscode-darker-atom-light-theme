@@ -1,0 +1,38 @@
+{
+  "name": "darker-atom-one-light-theme",
+  "displayName": "Darker Atom One Light Theme",
+  "description": "A darker font color theme base on Atom one light theme",
+  "version": "0.0.1",
+  "publisher": "Jenny Shih",
+  "author": {
+    "name": "Jenny Shih",
+    "email": "gh87783gh@gmail.com",
+    "url": "https://github.com/gh87781gh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenny-shih/vscode-darker-atom-light-theme"
+  },
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light theme",
+    "atom",
+    "atom one",
+    "atom light"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darker Atom One Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/darker atom one light theme default-color-theme.json"
+      }
+    ]
+  }
+}
